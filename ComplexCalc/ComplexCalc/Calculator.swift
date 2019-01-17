@@ -14,4 +14,8 @@ class Calculator {
     func add(lhs: Int, rhs: Int) -> Int {
         return lhs + rhs
     }
+    
+    func subtract(lhs: Int, rhs: Int) -> Int {
+        return lhs - rhs
+    }
 }
