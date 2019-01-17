@@ -24,6 +24,7 @@ class Calculator {
     }
     
     func divide(lhs: Int, rhs: Int) -> Int {
+        //TODO: See if we need to check for dividing by 0 issues
         /*if rhs == 0 {
             print("Cannot divide by 0")
             return nil
@@ -33,4 +34,8 @@ class Calculator {
         }*/
         return lhs / rhs
     }
+    
+    /*func mathOp(lhs: Int, rhs: Int, op: closure) {
+        
+    }*/
 }
