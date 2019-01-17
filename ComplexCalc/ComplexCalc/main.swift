@@ -19,7 +19,7 @@ let calc = Calculator()  // Don't change this declaration name; it's used in all
 assert(calc.add(lhs: 2, rhs: 2) == 4)
 assert(calc.subtract(lhs: 2, rhs: 2) == 0)
 assert(calc.multiply(lhs: 2, rhs: 2) == 4)
-//assert(calc.divide(lhs: 2, rhs: 2) == 1)
+assert(calc.divide(lhs: 2, rhs: 2) == 1)
 
 //assert(calc.mathOp(lhs: 5, rhs: 5, op: { ($0 + $1) + ($0 * $1) }) == 35)
 //assert(calc.mathOp(lhs: 10, rhs: -5, op: { ($0 + $1) + ($0 - $1) }) == 20)

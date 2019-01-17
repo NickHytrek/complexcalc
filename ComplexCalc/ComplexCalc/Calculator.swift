@@ -22,4 +22,15 @@ class Calculator {
     func multiply(lhs: Int, rhs: Int) -> Int {
         return lhs * rhs
     }
+    
+    func divide(lhs: Int, rhs: Int) -> Int {
+        /*if rhs == 0 {
+            print("Cannot divide by 0")
+            return nil
+        }
+        else {
+            return lhs / rhs
+        }*/
+        return lhs / rhs
+    }
 }
