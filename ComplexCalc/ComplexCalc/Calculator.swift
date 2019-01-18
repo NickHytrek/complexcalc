@@ -48,4 +48,18 @@ class Calculator {
         }
         return result
     }
+    
+    func multiply(_ args: [Int]) -> Int {
+        var i = 0
+        var result = 1
+        while i < args.count {
+            result *= args[i]
+            i += 1
+        }
+        return result
+    }
+    
+    func count(_ args: [Int]) -> Int {
+        return args.count
+    }
 }
