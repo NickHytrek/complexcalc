@@ -86,11 +86,17 @@ class Calculator {
     
     //Dictionary functions
     func add(lhs: [String : Int], rhs: [String : Int]) -> [String : Int] {
-        return ["x" : 1]
+        var result = ["x" : 0, "y" : 0]
+        result.updateValue(lhs["x"]! + rhs["x"]!, forKey: "x")
+        result.updateValue(lhs["y"]! + rhs["y"]!, forKey: "y")
+        return result
     }
     
     func subtract(lhs: [String : Int], rhs: [String : Int]) -> [String : Int] {
-        return ["x" : 1]
+        var result = ["x" : 0, "y" : 0]
+        result.updateValue(lhs["x"]! - rhs["x"]!, forKey: "x")
+        result.updateValue(lhs["y"]! - rhs["y"]!, forKey: "y")
+        return result
     }
     
 }
