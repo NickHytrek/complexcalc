@@ -44,7 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				9F0A76CE1F84D60A0048FAB8 /* ComplexCalc */,
-				9F0A76CD1F84D60A0048FAB8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +53,7 @@
 				9F0A76CC1F84D60A0048FAB8 /* ComplexCalc */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		9F0A76CE1F84D60A0048FAB8 /* ComplexCalc */ = {
@@ -61,6 +61,7 @@
 			children = (
 				9F0A76CF1F84D60A0048FAB8 /* main.swift */,
 				9F0A76D61F84D6220048FAB8 /* Calculator.swift */,
+				9F0A76CD1F84D60A0048FAB8 /* Products */,
 			);
 			path = ComplexCalc;
 			sourceTree = "<group>";
