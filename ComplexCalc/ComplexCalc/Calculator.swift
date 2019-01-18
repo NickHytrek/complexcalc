@@ -39,6 +39,8 @@ class Calculator {
         
     }*/
     
+    
+    // Complex functions
     func add(_ args : [Int]) -> Int {
         var i = 0
         var result = 0
@@ -71,5 +73,10 @@ class Calculator {
             i += 1
         }
         return sum / args.count
+    }
+    
+    //Coordinate point functions
+    func add (lhs: (Int, Int), rhs: (Int, Int)) -> (Int, Int) {
+        return ((lhs.0 + rhs.0), (lhs.1 + rhs.1))
     }
 }
