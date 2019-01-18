@@ -29,10 +29,19 @@ class Calculator {
     }
     
     //mathOp functions
-    /*func mathOp(lhs: Int, rhs: Int, op: closure) {
-        
-    }*/
+    func mathOp(lhs: Int, rhs: Int, op: (Int, Int) -> Int) -> Int {
+        return op(lhs, rhs)
+    }
     
+    func mathOp(args: [Int], beg: Int, op: (Int, Int) -> Int) -> Int {
+        var i = 0
+        var result = beg
+        while i < args.count {
+            result = op(result, args[i])
+            i += 1
+        }
+        return result
+    }
     
     //Complex functions
     func add(_ args : [Int]) -> Int {
