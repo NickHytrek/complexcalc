@@ -62,4 +62,14 @@ class Calculator {
     func count(_ args: [Int]) -> Int {
         return args.count
     }
+    
+    func avg(_ args: [Int]) -> Int {
+        var i = 0
+        var sum = 0
+        while i < args.count {
+            sum += args[i]
+            i += 1
+        }
+        return sum / args.count
+    }
 }
