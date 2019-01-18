@@ -38,4 +38,14 @@ class Calculator {
     /*func mathOp(lhs: Int, rhs: Int, op: closure) {
         
     }*/
+    
+    func add(_ args : [Int]) -> Int {
+        var i = 0
+        var result = 0
+        while i < args.count {
+            result += args[i]
+            i += 1
+        }
+        return result
+    }
 }
